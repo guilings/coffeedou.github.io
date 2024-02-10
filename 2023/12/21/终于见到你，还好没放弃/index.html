@@ -249,7 +249,8 @@
 
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://cdn.jsdelivr.net/gh/guilings/cdn@1.2.6/img\cover\nopicture.webp);" src="https://cdn.jsdelivr.net/gh/guilings/cdn@1.2.4/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/guilings/cdn@1.2.6/img\cover\nopicture.webp">
+    <div class="pattern-attachment-img">
+      <img src="https://cdn.jsdelivr.net/gh/guilings/cdn@1.2.4/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/guilings/cdn@1.2.6/img\cover\nopicture.webp" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">
